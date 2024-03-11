@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+
+ <html lang="pt-br">
+
+     <head>
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="principal.css">
+     <title> Controle Manutenção " CM "</title>
+
+     </head>
+
+     <body>
+    
+     <main>
+
+     <section class="form">
+
+             <div class="logo">
+              <img src="logoAlvo.jpeg" alt="" width="340px">
+             </div>
+
+         <form>
+             
+             <input type="text"     name="username" minlength="3" id="username" placeholder="Usuário" class="form-control" class="password-field" required>
+
+             <input type="password" name="username" minlength="6" id="password" placeholder="Senha"   class="form-control" class="password-field" required>
+            
+                 <div class="password__settings">
+
+                     <label class="password__settings__remember">
+
+                        <input type="checkbox">
+
+                        <span class="custom__checkbox">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                            fill="none" viewBox="0 0 24 24" 
+                            stroke="currentColor" 
+                            stroke-width="2" 
+                            class="w-6 h-6">
+                           
+                            <path stroke-linecap="round" 
+                            d="M4.5 12.75l6 6 9-13.5"
+                            stroke-linejoin="round" />
+                             
+                          </svg>                              
+                        </span> 
+                         
+                         Relembre-me
+
+                     </label>
+     
+                   <a href="esquecisenha.html">Esqueci a Senha?</a>
+
+                 </div>
+
+             <br>                                          <br> 
+           
+             <button type="button"id="botao" class="botao" onclick="login()">Entrar</button>
+             
+             <br>                                          <br> 
+            
+         </form>
+             
+            <br> <p class="form__footer"> Não tem uma conta? <br> 
+                
+            <a href="https://wa.me/+55079998892260">Solicite a criação da sua conta</a>  </p>
+            
+     <script src="principal.js"></script>       
+     </section>
+
+     
+ 
+  
+     </body>
+
+ </html>

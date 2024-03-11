@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>Formulário com Redirecionamento</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulariopix.css">
+
+</head>
+
+ <body>
+
+   <section>
+
+    <h2 class="pix">Formulário de Solicitação Pix</h2><br><br>
+    
+
+     <form id="meuFormulario">
+ 
+        <input type="text" id="destintario" class="caixa"      name="name" placeholder="Destintário" autocomplete="off" required>
+        <input type="text" id="pix"         class="caixa"      name="name" placeholder="Chave PIX"   autocomplete="off" required>
+        <input type="text" id="banco"       class="caixa"      name="name" placeholder="Banco"       autocomplete="off" required>
+        <input type="text" id="valor"       class="caixa"      name="name" placeholder="Valor"       autocomplete="off" required>
+        
+
+        <div id="tipomanutenção" autocomplete="off" required>
+
+            <label   for="senioridade"> <b>Tipo de Manutenção</b> </label>
+             <select id="senioridade" required>
+                <option selected disabled value="">  Selecione        </option>
+                <option>Eletrica                                      </option>
+                <option>Corretiva                                     </option>
+                <option>Preventiva                                    </option>
+                <option>Preditiva                                     </option>      
+                <option>Troca de Óleo                                 </option>   
+                <option>Freios                                        </option>  
+                <option>Suspensão                                     </option>  
+                <option>Bateria                                       </option>  
+                <option>Pneus                                         </option>  
+                <option>Filtros                                       </option>                                 
+           </select>
+
+        </div>
+
+        <div id="placa" autocomplete="off" required>
+
+            <label   for="senioridade"> <b>Placa do Caminhão</b> </label> 
+             <select id="senioridade" required>
+                <option selected disabled value="">  Selecione       </option>
+                <option>ORM-7800                                     </option>
+                <option>OZF-7J99                                     </option>
+                <option>RRC-3G61 / PCF-9C66                          </option>
+                <option>RRC-3G65 / QKT-8J19                          </option>                 
+           </select>
+
+        </div>
+
+        <label   for="senioridade"> <b>Observação</b> </label>
+        <input type="text" id="observação"  class="observação" name="name"autocomplete="off" required>
+
+        <br>
+
+      <input type="button" id="enviar" value="Enviar" class="enviar">
+
+     </form>
+
+    <script src="formulariopix.js"></script>
+
+   </section>
+ 
+  </body>
+
+</html>

@@ -1,0 +1,129 @@
+
+/* configuração do corpo */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #111127;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #111127;
+    width: 500px;
+}
+
+/*------------------------*/
+
+
+/*  texto formulario pix  */
+
+.pix{
+    color: #fff2f2;
+    font-size: 19px;    
+    text-align: center; 
+    margin-top: 0px; 
+    font-family: Arial; 
+    text-shadow: 3px 3px 4px #808080; 
+   
+    
+}
+
+/*------------------------*/
+
+
+/*------------- caixa de digitação ---------------*/
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #f5f5f5;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+form label{
+    color: #f5f5f5;
+    font-size: 15px;
+    margin-bottom: 8px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .caixa {
+    width: 100%;
+    height: 35px; 
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  select {
+    width: 100%;
+    height: 35px; 
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .observação {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    height: 100px; 
+
+
+  }
+/*-------------------------------------------------*/
+
+
+/*-------------- botão de enviar ---------------*/
+
+.enviar {
+    height: 50px;   
+    width: 100%;
+    display: block;
+    border-radius: 100px;
+    border-bottom: #000000;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;  
+    padding: 10px 20px;
+    background-color: #2D888F;
+    color: #ffffff;
+    text-decoration: none;
+    text-emphasis: center;  
+    text-align: center;
+    transition: background-color 0.3s;
+    border: 1px;
+    border-radius: 16px;  
+ }
+
+ /*-----------------------------------------------*/
